@@ -1,0 +1,33 @@
+body{
+  background-image: url(assets\wp3293972-world-map-4k-wallpapers.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0 ;
+  padding: 0;
+  
+
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+
+
+}
+.clock-container{
+  backdrop-filter:blur(6px);
+  padding: 30px 60px;
+  border-radius: 500px;
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.64);
+
+}
